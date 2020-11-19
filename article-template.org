@@ -14,7 +14,7 @@
 #+LATEX_HEADER: \input{text-template/scrarticle-settings}
 #+LATEX_HEADER: \input{text-template/text-settings}
 #+LATEX_HEADER: \input{text-template/myMacros}
-#+LATEX_HEADER: %\bibliography{references}
+#+LATEX_HEADER: %\addbibresource[datatype=bibtex]{references.bib}   % BibLaTeX 
 :end:
 
 #+BEGIN_abstract

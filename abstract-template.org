@@ -29,7 +29,7 @@
 #+LATEX_HEADER: \makeatother
 #+LATEX_HEADER: 
 #+LATEX_HEADER: \input{text-template/myMacros}
-#+LATEX_HEADER: %\bibliography{references}
+#+LATEX_HEADER: %\addbibresource[datatype=bibtex]{references.bib}  % BibLaTeX
 :end:
 
 * Paragraph title
