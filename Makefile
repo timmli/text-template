@@ -52,7 +52,7 @@ test_article:
 			latexmk -pdf article-template.tex
 
 release_article:
-	rm -fr tmp
+	rm -fr temp
 	mkdir temp
 	cd temp; mkdir text-template
 	cp -r --parents $(ARTICLE_FILES) temp/text-template
