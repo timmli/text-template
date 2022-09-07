@@ -4,7 +4,8 @@ ABSTRACT_FILES =  myMacros.tex \
 	text-settings.tex \
 	$(wildcard packages/*.sty) \
 	abstract-examples.tex  \
-	$(wildcard bst/biblatex-sp-unified/[^.]*)
+  muss.bbx \
+  muss.cbx
 
 test_abstract:
 	rm -fr test
@@ -37,7 +38,8 @@ ARTICLE_FILES =  myMacros.tex \
 	scrarticle-settings.tex \
 	$(wildcard packages/*.sty) \
 	article-examples.tex  \
-	$(wildcard bst/biblatex-sp-unified/[^.]*)
+  muss.bbx \
+  muss.cbx
 
 test_article:
 	rm -fr test
@@ -69,7 +71,8 @@ BOOK_FILES =  myMacros.tex \
 	text-settings.tex \
 	$(wildcard packages/*.sty) \
 	book-examples.tex  \
-	$(wildcard bst/biblatex-sp-unified/[^.]*)
+  muss.bbx \
+  muss.cbx
 
 test_book:
 	rm -fr test
